@@ -13,6 +13,7 @@ uis.controller('uiSelectCtrl',
   var EMPTY_SEARCH = '';
 
   ctrl.placeholder = uiSelectConfig.placeholder;
+  ctrl.placeholderActive = uiSelectConfig.placeholderActive;
   ctrl.searchEnabled = uiSelectConfig.searchEnabled;
   ctrl.sortable = uiSelectConfig.sortable;
   ctrl.refreshDelay = uiSelectConfig.refreshDelay;
